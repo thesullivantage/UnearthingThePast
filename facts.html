@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unearthing the Past</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper grey darken-2">
+            <a href="#" class="brand-logo">Unearthing the Past</a>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="assets/images/sidebarBackground.jpg">
+                </div>
+                <a href="#user">
+                    <img class="circle" src="assets/images/profilePicture.jpg">
+                </a>
+                <a href="#name">
+                    <span class="white-text name">Site By: Jack Sullivan</span>
+                </a>
+                <a href="#email">
+                    <span class="white-text email">jack.sullivan96@gmail.com</span>
+                </a>
+            </div>
+        </li>
+        <li>
+            <a href="index.html">The Grand Tour Journals</a>
+        </li>
+        <li>
+            <a href="provinces.html">Roman Provinces Journals</a>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a href="facts.html">Facts Page</a>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a class="waves-effect" href="https://www.flickr.com/photos/142486648@N05/albums">Ryan's Flickr Images</a>
+        </li>
+    </ul>
+    <div class="fixed-action-btn">
+        <a href="#" data-target="slide-out" class="indigo darken-2 sidenav-trigger btn-floating btn-large red">
+            <i class="large material-icons">menu</i>
+        </a>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+        });
+    </script>
+
+</body>
+
+</html>
